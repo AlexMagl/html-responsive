@@ -1,0 +1,76 @@
+body
+{
+    background-color: bisque
+}
+
+@media screen and (min-width: 860px) {
+    h1
+    {
+     font-size: 2.5vw;
+     color: brown;
+    }
+}
+
+@media screen and (max-width: 859px){
+    h1
+    {
+     font-size: 7vw;
+     color: brown;
+    }
+}
+
+@media screen and (min-width: 860px){
+    #text {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 859px){
+    #text {
+        font-size: 5vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    a 
+    {
+        font-size: 1.25vw;
+    }    
+}
+
+@media screen and (max-width: 859px) {
+    a
+    {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    #mountains
+        {
+            max-width: 40%;
+        }
+}
+
+@media screen and (max-width: 859px) {
+    #mountains
+    {
+        max-width: 100%
+    }
+}
+
+@media screen and (min-width: 860px) {
+    #guitar
+    {
+        max-width: 20%;
+    }
+}
+
+@media screen and (max-width: 859px) {
+    #guitar
+    {
+        max-width: 100%;
+    }
+}
